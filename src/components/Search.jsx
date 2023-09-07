@@ -1,0 +1,19 @@
+import React from 'react'
+
+const Search = () => {
+  return (
+    <div className='search'>
+      <div className='searchForm'>
+        <input type="text" placeholder='Find a user'/>
+      </div>
+      <div className="userChat">
+        <img src="https://media.licdn.com/dms/image/C5603AQF-438JiD8isg/profile-displayphoto-shrink_800_800/0/1661704629569?e=1697673600&v=beta&t=j6gABKOU3fYMFdkjB1TQwArwhbw5pf2RXIuLgF2KtY8" alt="" />
+        <div className="userChatInfo">
+          <span>vsk</span>
+        </div>
+      </div>
+    </div>
+  )
+}
+
+export default Search
